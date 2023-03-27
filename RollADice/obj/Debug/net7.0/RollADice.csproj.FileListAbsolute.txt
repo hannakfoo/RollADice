@@ -13,3 +13,5 @@ F:\RollADice\RollADice\obj\Debug\net7.0\refint\RollADice.dll
 F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.pdb
 F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.genruntimeconfig.cache
 F:\RollADice\RollADice\obj\Debug\net7.0\ref\RollADice.dll
+F:\RollADice\RollADice\bin\Debug\net7.0\FluentValidation.dll
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.csproj.CopyComplete

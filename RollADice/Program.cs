@@ -1,6 +1,7 @@
 ﻿// https://en.wikipedia.org/wiki/Dice_notation
 
 using System.Runtime.CompilerServices;
+using RollADice;
 
 Console.WriteLine(@"((_______\");
 Console.WriteLine(@"     _______ /       \O O\\");
@@ -18,24 +19,30 @@ Console.WriteLine("==================================");
 
 Console.ReadLine();
 
-while (Console.ReadKey().Key == ConsoleKey.Escape)
-{
-    RollThaDice("10D6");
-}
+
+RollThaDice("10D6");
+RollThaDice("100D6");
+RollThaDice("5D6");
+RollThaDice("1D30");
+
 
 Console.ReadKey();
 
-int RollThaDice(string diceNotation)
+int RollThaDice(string diceNotationInput)
 {
-    var times = Int32.Parse(diceNotation.Substring(0, 1));
-    if (Int32.TryParse(diceNotation.Substring(diceNotation.IndexOf("D") + 1), out var dice))
+    int result = 0;
+    var diceNotation = new DiceNotation(diceNotationInput);
+
+    Console.WriteLine($"Rolling the dice {diceNotation.Times} times with {diceNotation.Faces} sides");
+
+    for (int i = 0; i < diceNotation.Times; i++)
     {
-        for (int i = 0; i < times; i++)
-        {
-            int randomNumber = new Random().Next(1, dice);
-            Console.WriteLine(randomNumber.ToString());
-        }
+        result = new Random().Next(1, diceNotation.Faces);
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine($"Dice rolled: {result}");
     }
 
-    return 0;
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Final result: {result}");
+    return result;
 }

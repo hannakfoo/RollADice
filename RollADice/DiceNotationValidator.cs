@@ -17,7 +17,7 @@ namespace RollADice
         /// </summary>
         public DiceNotationValidator()
         {
-            RuleFor(d => d.InputString).NotEmpty().NotNull();
+            //RuleFor(d => d.InputString).NotEmpty().NotNull();
         }
     }
 }
