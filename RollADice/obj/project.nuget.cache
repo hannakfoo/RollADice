@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sG9c8BjypUAoNWWyOmHJ1MxDeOKVIfh+HIpWoub5I+z5Q6JsLIXCJMeNDrdC48h8oC/HcwP3oyKmvmsVIxxUgg==",
+  "success": true,
+  "projectFilePath": "F:\\RollADice\\RollADice\\RollADice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\greenchoice\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

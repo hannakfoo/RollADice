@@ -1,0 +1,15 @@
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.csproj.AssemblyReference.cache
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.GeneratedMSBuildEditorConfig.editorconfig
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.AssemblyInfoInputs.cache
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.AssemblyInfo.cs
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.csproj.CoreCompileInputs.cache
+F:\RollADice\RollADice\bin\Debug\net7.0\RollADice.exe
+F:\RollADice\RollADice\bin\Debug\net7.0\RollADice.deps.json
+F:\RollADice\RollADice\bin\Debug\net7.0\RollADice.runtimeconfig.json
+F:\RollADice\RollADice\bin\Debug\net7.0\RollADice.dll
+F:\RollADice\RollADice\bin\Debug\net7.0\RollADice.pdb
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.dll
+F:\RollADice\RollADice\obj\Debug\net7.0\refint\RollADice.dll
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.pdb
+F:\RollADice\RollADice\obj\Debug\net7.0\RollADice.genruntimeconfig.cache
+F:\RollADice\RollADice\obj\Debug\net7.0\ref\RollADice.dll
