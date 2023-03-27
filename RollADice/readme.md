@@ -1,4 +1,14 @@
-﻿# Readme
+﻿```
+    _______            
+  /\       \           
+ /()\   ()  \          
+/    \_______\         
+\    /()     /         
+ \()/   ()  /          
+  \/_____()/
+```
+
+# Readme
 
 Given a string in dice notation, return a random integer you can get by rolling those dice.
 
