@@ -16,15 +16,10 @@ Console.WriteLine("==================================");
 Console.WriteLine("         Roll Tha Dice!!         ");
 Console.WriteLine("==================================");
 
-
-Console.ReadLine();
-
-
 RollThaDice("10D6");
 RollThaDice("100D6");
 RollThaDice("5D6");
 RollThaDice("1D30");
-
 
 Console.ReadKey();
 
